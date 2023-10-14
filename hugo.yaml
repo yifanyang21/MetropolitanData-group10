@@ -24,9 +24,6 @@ menu:
     - name: About
       pageRef: /about
       weight: 1
-    - name: Contact ↗
-      url: "https://github.com/imfing"
-      weight: 3
     - name: Search
       weight: 4
       params:
@@ -36,6 +33,15 @@ menu:
       url: "https://github.com/yifanyang21/MetropolitanData-group10"
       params:
         icon: github
+  sidebar:
+    - name: More
+      params:
+        type: separator
+      weight: 1
+    - name: "About"
+      pageRef: "/about"
+      weight: 2
+
     
 
 params:
