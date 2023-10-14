@@ -1,3 +1,11 @@
+
+---
+title: Assignment1
+type: docs
+prev: /
+next: docs/folder/
+---
+
 {
  "cells": [
   {
