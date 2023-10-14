@@ -1,20 +1,8 @@
 ---
-title: Assignment1
-next: Assignment22
+title: Week 1.1 &emsp; Water – Paralympics
+next: /
 type: docs
 ---
-
-<header>
-        <div style="overflow: auto;">
-    </div>
-    <div style="text-align: center;">
-        <h1> AMS Data1 - Assignment </h1>
-        <h4> Week 1.1 &emsp; Water – Paralympics</h4>
-        <h6>&copy; 2023, Group 10. Layne, Michelle, Yifan</h6>     
-    </div>
-    <br>   
-    <br>
-</header>
 
 
 ## Background:
