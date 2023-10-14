@@ -1,6 +1,6 @@
 ---
 title: Metropolitan Data1
-toc: false
+toc: true
 ---
   
 Hoi! We are group10. This website is provided by Layne, Michelle and Yifan.  
