@@ -1,7 +1,7 @@
 ---
 title: Assignment1
 next: Assignment22
-draft: false
+type: docs
 ---
 
 <header>
