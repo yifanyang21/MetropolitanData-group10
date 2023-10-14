@@ -12,10 +12,10 @@ Hoi! We are group10. This website is provided by Layne, Michelle and Yifan.
 ## Assignment
 
 {{< cards >}}
-  {{< card link="docs/assignment1/assignment1" image="https://bodyandmind.amsterdam/wp-content/uploads/2016/06/zwemtochten-natuurwater-f-facebook-cityswim.jpg" title="Assignment1" icon="book-open" subtitle="Water" method="Fill" >}}
-  {{< card link="about" image="https://pureboats.com/wp-content/uploads/2021/04/ultimate-canal-cruise-pure-boats-3-750x550.jpg" title="Assignment2" icon="book-open" subtitle="Energy">}}
-  {{< card link="about" image="https://mediafiles.reiseuhu.de/wp-content/uploads/2020/12/airbnb-wohnung-amsterdam.jpg" title="Assignment3" icon="book-open" subtitle="Housing">}}
-  {{< card link="about" image="https://mediafiles.reiseuhu.de/wp-content/uploads/2020/12/airbnb-wohnung-amsterdam.jpg" title="Assignment4" icon="book-open" subtitle="Transpotation">}}
+  {{< card link="docs/assignment1/assignment1" image="https://bodyandmind.amsterdam/wp-content/uploads/2016/06/zwemtochten-natuurwater-f-facebook-cityswim.jpg" title="Assignment1" icon="book-open" subtitle="Water" method="Resize" options="600x q80 webp" >}}
+  {{< card link="about" image="https://pureboats.com/wp-content/uploads/2021/04/ultimate-canal-cruise-pure-boats-3-750x550.jpg" title="Assignment2" icon="book-open" subtitle="Energy" method="Resize" options="600x q80 webp">}}
+  {{< card link="about" image="https://mediafiles.reiseuhu.de/wp-content/uploads/2020/12/airbnb-wohnung-amsterdam.jpg" title="Assignment3" icon="book-open" subtitle="Housing" method="Resize" options="600x q80 webp">}}
+  {{< card link="about" image="https://mediafiles.reiseuhu.de/wp-content/uploads/2020/12/airbnb-wohnung-amsterdam.jpg" title="Assignment4" icon="book-open" subtitle="Transpotation" method="Resize" options="600x q80 webp">}}
 {{< /cards >}}
 
 
