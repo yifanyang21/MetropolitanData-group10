@@ -1,6 +1,7 @@
 ---
 title: Assignment1
 next: Assignment22
+draft: false
 ---
 
 <header>
