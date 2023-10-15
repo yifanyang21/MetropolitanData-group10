@@ -11,17 +11,16 @@ type: about
 Paris is hosting the Paralympics in 2024. One of the events at the Paralympics is an open water swimming event in the Seine (apparently the water is clean or so the French say). Since the City of Amsterdam thinks it is better than Paris, they want to host an event before the Paralympics, snubbing the Parisians. The idea is to host a 5km. open water swimming event through the canals of Amsterdam. You are asked by the municipality of Amsterdam to advise on the feasibility of the event from the perspective of the safety of the partaking athletes from an environmental perspective. The event is going to be hosted in May. 
 For this exercise you need the data from this website. Download the Basis Bestand Gebieden Amsterdam (BBGA), both the data and the documentation. You already have the AirBnB data from Amsterdam from the workshop exercise.
 The Municipality of Amsterdam is in a love hate relationship with AirBnb, see for example this and this article. Amsterdam wants to get a bit of insight in the number of tourists that will make use of AirBnB. 
-
 Can you advise on or calculate for Amsterdam:
-• What Amsterdam will receive from tourist tax if the event lasts a week and you will have 30.000 visitors?
-• Plot the amount of AirBnB locations per neighbourhood.
-• Which street in Amsterdam has the most AirBnB apartments?
-• Try to cross reference the data from the AirBnB dataset with the BBGA. Can you figure out if all apartments of AirBnB are designated as housing? Which number of apartments are not rented out all the time but are also used as normal housing?
-• How many hotel rooms should be built if Amsterdam wants to accommodate the same number of tourists?
-• How many different licenses are issued?
+- What Amsterdam will receive from tourist tax if the event lasts a week and you will have 30.000 visitors?
+- Plot the amount of AirBnB locations per neighbourhood.
+- Which street in Amsterdam has the most AirBnB apartments?
+- Try to cross reference the data from the AirBnB dataset with the BBGA. Can you figure out if all apartments of AirBnB are designated as housing? Which number of apartments are not rented out all the time but are also used as normal housing?
+- How many hotel rooms should be built if Amsterdam wants to accommodate the same number of tourists?
+- How many different licenses are issued?
 Additionally, you will:
-• Add the link to your Github project in the Excel in Teams.
-• Read chapters 1, 2, 3 and 5, 6, 7 from the Think Python book.
+- Add the link to your Github project in the Excel in Teams.
+- Read chapters 1, 2, 3 and 5, 6, 7 from the Think Python book.
 ---
 
 ## Our Solutions:
@@ -81,7 +80,7 @@ fig.update_layout(
 
 fig.show()
 ```
-<img src='image/newplot.png'></img>
+![newplot](image\newplot.png)
 
 ### Question 3： Which street in Amsterdam has the most AirBnB apartments?  
 
