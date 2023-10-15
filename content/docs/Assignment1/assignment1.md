@@ -1,6 +1,6 @@
 ---
 title: Assignment 1  –  Water 
-next: /
+next: docs/Assignment2/assignment2
 toc: false
 type: about
 ---
@@ -20,7 +20,7 @@ To convey a proper opinion on the feasibility of the event, our group would need
 
 The following table is a list of relevant data sets we found and the format they are stored in. In the table we answer the questions about file format, data type, the readability and the required python library.  
 
-<table>
+<table font-size="11px">
 <thead>
 <tr>
 <th style="text-align:left">Name</th>
