@@ -101,29 +101,17 @@ for i in range(len(bnb_new)):
 
 bnb_new.head()
 ```
-<i>
-id	latitude	longitude	street
-0	761411	    52.40164	4.95106	Jisperveldstraat
-1	768274	    52.38855	4.88521	Zoutkeetsplein
-2	768737	    52.37824	4.86826	Centrale Groothandelsmarkt
-3	771217	    52.34091	4.84802	IJsbaanpad
-4	771343	    52.37641	4.88303	Derde Egelantiersdwarsstraa
-</i>
 
 ```python
 #find out the street with most airbnb apartment
 street_top5 = bnb_new['street'].value_counts().sort_values(ascending=False).head(5)
 street_top5
 ```
-<i>
-street
-Nassaukade                          194
-Derde Egelantiersdwarsstraat        80
-Hoofdweg                            70
-Prinsengracht                       60
-Admiraal De Ruijterweg              54
-Name: count, dtype: int64
-</i>
+| Nassaukade  | 194 |
+| Derde Egelantiersdwarsstraat  | 80 |
+| Hoofdweg  | 70 |
+| Prinsengracht  | 60 |
+| Admiraal De Ruijterweg  | 54 |
 
 According to the result above, we can say that the <b>Nassaukade</b> has most AirBnB
 
