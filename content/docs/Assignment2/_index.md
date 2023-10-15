@@ -28,7 +28,7 @@ https://openresearch.amsterdam/nl/page/92981/grachtenmonitor-2022
 
 ### Question 2： Are there peak times for the canal boats?
 
-<img src="image/passengers per hour.png"></img>
+<img src="passengers per hour.png"></img>
 <img src='image/weekrtme and dagritme van de bemande passagiersvaart.png'></img>
 
 The data above is from the Amsterdam Canal Monitor report of 2022. The graph on the bottom left shows a peak in the weekends. The graph on the bottom left and the table at the top go in more detail about daily peaks of the canal boats. The graph on the bottom left shows an increase in passage during the morning, a peak in the afternoon, and a decrease in the evening. The table includes not only on peaks during the day but also the variety between different measuring points throughout Amsterdam. The Berlagebrug, the Prinsengracht/ Leidsegracht and the Singelgracht are much more crowded than other locations. This could be because of the popular locations of these measuring points. The general trend, however, is similar to that presented in the graph on the bottom right. Increases in the morning, peaks in the afternoon and early evening and a decrease in the late evening. 
