@@ -2,6 +2,7 @@
 title: Week 1.1 Water – Paralympics
 next: /
 toc: false
+type: about
 ---
 
 
