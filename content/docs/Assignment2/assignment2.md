@@ -20,7 +20,7 @@ The Municipality is worried that the canal- and support boats might pollute the 
 
 According to city spokesman Wouter Keuning, 75% of the cities commercial vessels are qualifying as emission free. In contrast, of the 12.000 recreational vessels in the city of Amsterdam only 5% are emission free, meaning that the vast majority is diesel/ fossil fuel driven.  The table below displays the BHG vignettes issued for different years. This indicates the number of recreational vessels that got a vignette (a sort of license) to sail on the canals.  In 2022 220 hybrid recreational vessels got a vignette, whereas there were over 4400 regular vehicles that got a license for access to the canals. This also shows the vast majority of vessels in the Amsterdam canals being diesel/ fossil fuel powered.    
 
-![](BHG-vignetten.png)
+![BHG-vignetten](BHG-vignetten.png)
 
 Links: 
 https://safety4sea.com/amsterdam-canal-boats-go-electric-ahead-of-2025-diesel-ban/   
