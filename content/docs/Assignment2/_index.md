@@ -22,14 +22,14 @@ According to city spokesman Wouter Keuning, 75% of the cities commercial vessels
 
 ![BHG-vignetten](BHG-vignetten.png)
 
-Links: 
+Links:  
 https://safety4sea.com/amsterdam-canal-boats-go-electric-ahead-of-2025-diesel-ban/   
 https://openresearch.amsterdam/nl/page/92981/grachtenmonitor-2022 
 
 ### Question 2： Are there peak times for the canal boats?
 
-<img src="passengers per hour.png"></img>
-<img src='image/weekrtme and dagritme van de bemande passagiersvaart.png'></img>
+![passengersperhour](passengers-per-hour.png)
+![weekrtmeanddagritmevandebemandepassagiersvaart](weekrtme-and-dagritme-van-de-bemande-passagiersvaart.png)
 
 The data above is from the Amsterdam Canal Monitor report of 2022. The graph on the bottom left shows a peak in the weekends. The graph on the bottom left and the table at the top go in more detail about daily peaks of the canal boats. The graph on the bottom left shows an increase in passage during the morning, a peak in the afternoon, and a decrease in the evening. The table includes not only on peaks during the day but also the variety between different measuring points throughout Amsterdam. The Berlagebrug, the Prinsengracht/ Leidsegracht and the Singelgracht are much more crowded than other locations. This could be because of the popular locations of these measuring points. The general trend, however, is similar to that presented in the graph on the bottom right. Increases in the morning, peaks in the afternoon and early evening and a decrease in the late evening. 
 
@@ -38,8 +38,8 @@ https://openresearch.amsterdam/nl/page/92981/grachtenmonitor-2022
 
 ### Question 3： Try to compare the energy use of the canal boats to some other activities in the city. Use canal boats more or less energy in relation to their carbon footprint compared to these other activities? 
 
-<img src= 'image/comparison of energy use.png'></img>
-<img src='image/boatway.png'></img>
+![comparisonofenergyuse](comparison-of-energy-use.png)
+![boatway](boatway.png)
 
 These values were calculated using typical gas narrowboat (around 15 meters) and a 2015 Ford F150 tank and fuel efficiencies. For the gas narrowboat, at cruising speed the boat uses around 1.5L per hour and has an assumed speed of 6km/hr (the maximum speed allowed for Amsterdam). If the boat is traveling slower than 6km/hr (most likely scenario) then the fuel consumption will be greater (around 2km/L instead of 4km/L), therefore the CO2 emissions and price will both increase accordingly. However, this does not consider the power required to accelerate to 6km/hr versus 4km/hr. The Ford F150 travels at 8km per 1 L of fuel. For both scenarios, an average amount of 2.3 kg of CO2 and €2.11 per L of gas were used. 
 
@@ -70,8 +70,8 @@ https://www.swimmingworldmagazine.com/news/open-water-swimmer-are-not-limited-to
 
 ### Question 6： If only clean energy can be used, how many solar panels or wind turbines are needed? 
 
-<img src="image/electric canal boat detail.png" width=500></img>
-<img src="image/boatway2.png"></img>
+![electric-canal-boat-detail](electric-canal-boat-detail.png)
+![boatway2](boatway2.png)
 
 These calculations were based off tables I, 3, 4, and 5 from waternet, and the estimated power values for wind turbines and solar panels. One typical solar panel produces around 1kwh and 0.29 kw. One typical wind turbine produces around 6 million kwh per year and 2750 kw. It is also assumed that one typical electric boat weighs 12 tons and it requires 0.5 kw per ton of weight to get the boat to a 70% efficient speed. 
 
@@ -82,7 +82,7 @@ https://www.usgs.gov/faqs/how-many-homes-can-average-wind-turbine-power
 
 ### Question 7： Would there be any effect on the water quality if there are less/no canal boats using fossil fules? 
 
-<img src="image/Baseline environmental performance.png"></img>
+![Baseline-environmentalperformance](Baseline-environmentalperformance.png)
 
 The table above displays the environmental performance indicators values for different types of baselines of vehicles. As the table shows, for a mechanical baseline, the emissions of CO2, NOx, SOx are 0.20, 0.0020 and 0.0012 respectively. For an electric baseline, these values are all 0. Therefore, the water pollution as a result of diesel/ fossil fuel powered vessels would decrease to 0 when electric vessels would be used. However, as mentioned earlier, water quality does not merely depend on the pollution form vessels on the water. Pollution from sewerage as a consequence of heavy rainfall is also a big contributor to water pollution. This should be considered in organization of this event. 
 
