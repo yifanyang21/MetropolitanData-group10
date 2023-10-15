@@ -42,7 +42,6 @@ menu:
       pageRef: "/about"
       weight: 2
     
-
 params:
   navbar:
     displayTitle: true
