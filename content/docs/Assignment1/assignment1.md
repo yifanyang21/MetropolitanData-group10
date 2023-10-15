@@ -24,7 +24,7 @@ The following table is a list of relevant data sets we found and the format they
 <thead>
 <tr>
 <th style="text-align:left">Name</th>
-<th style="text-align:left">Source/Link</th>
+<th style="text-align:left" width="200">Source/Link</th>
 <th style="text-align:left">File format</th>
 <th style="text-align:left">Data type</th>
 <th style="text-align:left">Scale</th>
@@ -35,7 +35,7 @@ The following table is a list of relevant data sets we found and the format they
 <tbody>
 <tr>
 <td style="text-align:left">Measurement results surface water quality research, 2019</td>
-<td style="text-align:left">https://onderzoek.amsterdam.nl/dataset/water-in-amsterdam</td>
+<td style="text-align:left" width="200">https://onderzoek.amsterdam.nl/dataset/water-in-amsterdam</td>
 <td style="text-align:left">Excel file</td>
 <td style="text-align:left">Numerical</td>
 <td style="text-align:left">Municipal scale (Municipality of Amsterdam)</td>
@@ -44,7 +44,7 @@ The following table is a list of relevant data sets we found and the format they
 </tr>
 <tr>
 <td style="text-align:left">Mapping our water: water visibility</td>
-<td style="text-align:left">https://www.waternet.nl/ons-water/oppervlaktewater/water-in-kaart/</td>
+<td style="text-align:left" width="200">https://www.waternet.nl/ons-water/oppervlaktewater/water-in-kaart/</td>
 <td style="text-align:left">Online map</td>
 <td style="text-align:left">Geodata (points, with numerical data)</td>
 <td style="text-align:left">Municipal scale (Municipality of Amsterdam)</td>
@@ -53,7 +53,7 @@ The following table is a list of relevant data sets we found and the format they
 </tr>
 <tr>
 <td style="text-align:left">Mapping our water: Salt</td>
-<td style="text-align:left">https://www.waternet.nl/ons-water/oppervlaktewater/water-in-kaart/</td>
+<td style="text-align:left" width="200">https://www.waternet.nl/ons-water/oppervlaktewater/water-in-kaart/</td>
 <td style="text-align:left">Online map</td>
 <td style="text-align:left">Geodata (points, with numerical data)</td>
 <td style="text-align:left">Municipal scale (Municipality of Amsterdam)</td>
@@ -62,7 +62,7 @@ The following table is a list of relevant data sets we found and the format they
 </tr>
 <tr>
 <td style="text-align:left">Mapping our water: Oxygen</td>
-<td style="text-align:left">https://www.waternet.nl/ons-water/oppervlaktewater/water-in-kaart/</td>
+<td style="text-align:left" width="200">https://www.waternet.nl/ons-water/oppervlaktewater/water-in-kaart/</td>
 <td style="text-align:left">Online map</td>
 <td style="text-align:left">Geodata (points, with numerical data)</td>
 <td style="text-align:left">Municipal scale (Municipality of Amsterdam)</td>
@@ -71,7 +71,7 @@ The following table is a list of relevant data sets we found and the format they
 </tr>
 <tr>
 <td style="text-align:left">zwemwater.nl</td>
-<td style="text-align:left">https://www.zwemwater.nl/home</td>
+<td style="text-align:left" width="200">https://www.zwemwater.nl/home</td>
 <td style="text-align:left">Online map</td>
 <td style="text-align:left">Geodata (points, with numerical data)</td>
 <td style="text-align:left">National scale (Netherlands)</td>
@@ -80,7 +80,7 @@ The following table is a list of relevant data sets we found and the format they
 </tr>
 <tr>
 <td style="text-align:left">Boarding and disembarking points & berths passenger vessels</td>
-<td style="text-align:left">https://maps.amsterdam.nl/varen/</td>
+<td style="text-align:left" width="200">https://maps.amsterdam.nl/varen/</td>
 <td style="text-align:left">Online map</td>
 <td style="text-align:left">Geodata (points with symbolic labels)</td>
 <td style="text-align:left">Municipal scale (Municipality of Amsterdam)</td>
@@ -110,10 +110,7 @@ sheet = workbook.active
 for row in sheet.iter_rows(values_only=True):
     list_row = list(row)
     print(list_row)
-   
-   
-
-
+ 
 ```
 or
 
