@@ -40,7 +40,7 @@
 
 {{ $linkClass := "hover:border-gray-300 bg-transparent shadow-sm dark:border-neutral-800 hover:bg-slate-50 hover:shadow-md dark:hover:border-neutral-700 dark:hover:bg-neutral-900" }}
 {{- with $image -}}
-  {{ $linkClass = "hover:border-gray-300 bg-gray-100 shadow dark:border-neutral-700 dark:bg-neutral-800 dark:text-gray-50 hover:shadow-lg dark:hover:border-neutral-500 dark:hover:bg-neutral-700" }}
+  {{ $linkClass = "aspect-auto md:aspect-[1.1/1] max-md:min-h-[340px] hextra-feature-card relative overflow-hidden rounded-3xl border border-gray-200 hover:border-gray-300 dark:border-neutral-800 dark:hover:border-neutral-700 before:pointer-events-none before:absolute before:inset-0 before:bg-glass-gradient" }}
 {{- end -}}
 
 {{- $external := strings.HasPrefix $link "http" -}}
