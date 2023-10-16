@@ -3,7 +3,8 @@ toc: false
 ---
 <br/>
 <br/>
-<img src="icon.png">
+<br/>
+<br/>
 
 {{< hextra/hero-headline >}} GROUP 10 {{< /hextra/hero-headline >}}
 
