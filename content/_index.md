@@ -3,14 +3,14 @@ toc: false
 ---
 <br/>
 <br/>
-
-
-
+<img src="icon.png">
 
 {{< hextra/hero-headline >}} GROUP 10 {{< /hextra/hero-headline >}}
 
-
-
+<br/>
+<br/>
+<br/>
+<br/>
 
 Hoi! This website is provided by Layne, Michelle and Yifan.  
 
