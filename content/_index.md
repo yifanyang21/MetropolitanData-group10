@@ -5,7 +5,12 @@ toc: false
 <br/>
 
 
-{{< hextra/hero-headline >}} Group 10 {{< /hextra/hero-headline >}}
+
+
+{{< hextra/hero-headline >}} GROUP 10 {{< /hextra/hero-headline >}}
+
+
+
 
 Hoi! This website is provided by Layne, Michelle and Yifan.  
 
