@@ -80,7 +80,7 @@ fig.update_layout(
 
 fig.show()
 ```
-![newplot](image\newplot.png)
+![newplot](newplot.png)
 
 ### Question 3： Which street in Amsterdam has the most AirBnB apartments?  
 
