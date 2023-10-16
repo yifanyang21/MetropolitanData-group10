@@ -71,7 +71,7 @@ https://www.swimmingworldmagazine.com/news/open-water-swimmer-are-not-limited-to
 
 ### Question 6： If only clean energy can be used, how many solar panels or wind turbines are needed? 
 
-![electric-canal-boat-detail](electric-canal-boat-detail.png){:height="50%" width="50%"}
+![electric-canal-boat-detail](electric-canal-boat-detail.png).Resize
 ![boatway2](boatway2.png)
 
 These calculations were based off tables I, 3, 4, and 5 from waternet, and the estimated power values for wind turbines and solar panels. One typical solar panel produces around 1kwh and 0.29 kw. One typical wind turbine produces around 6 million kwh per year and 2750 kw. It is also assumed that one typical electric boat weighs 12 tons and it requires 0.5 kw per ton of weight to get the boat to a 70% efficient speed. 
