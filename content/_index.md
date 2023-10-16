@@ -1,12 +1,16 @@
 ---
 title: Metropolitan Data1
 toc: false
+layout: hextra-home
 ---
 <br/>
 <br/>
-Hoi! We are group10. This website is provided by Layne, Michelle and Yifan.  
 
-  
+
+{{< hextra/hero-headline >}} Group 10 {{< /hextra/hero-headline >}}
+
+Hoi! This website is provided by Layne, Michelle and Yifan.  
+
 
 
 ## Assignment
