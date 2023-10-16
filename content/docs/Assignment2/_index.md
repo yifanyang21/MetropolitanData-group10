@@ -2,6 +2,8 @@
 title: Assignment 2  –  Energy 
 toc: false
 type: about
+next: /assignment3
+prev: /assignment1
 ---
 
 
