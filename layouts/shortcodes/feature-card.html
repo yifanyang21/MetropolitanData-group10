@@ -27,3 +27,6 @@
     <img src="{{ . }}" class="absolute max-w-none {{ $imageClass }}" alt="{{ $title }}" />
   {{- end -}}
 </div>
+
+{{- $external := strings.HasPrefix $link "http" -}}
+{{- $href := cond (strings.HasPrefix $link "/") ($link | relURL) $link -}}
