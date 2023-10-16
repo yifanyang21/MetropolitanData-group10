@@ -21,7 +21,7 @@ Hoi! We are group10. This website is provided by Layne, Michelle and Yifan.
 
 
 {{< feature-grid >}}
-  {{< hextra/feature-card
+  {{< feature-card
     title="Fast and Full-featured"
     subtitle="Simple and easy to use, yet powerful and feature-rich."
     class="aspect-auto md:aspect-[1.1/1] max-md:min-h-[340px]"
@@ -66,3 +66,4 @@ Hoi! We are group10. This website is provided by Layne, Michelle and Yifan.
     icon="sparkles"
     subtitle="Syntax highlighting / Table of contents / SEO / RSS / LaTeX / Mermaid / Customizable / and more..."
   >}}
+{{< /feature-grid >}}
