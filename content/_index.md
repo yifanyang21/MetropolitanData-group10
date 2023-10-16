@@ -1,7 +1,6 @@
 ---
 title: Metropolitan Data1
 toc: false
-layout: hextra-home
 ---
 <br/>
 <br/>
