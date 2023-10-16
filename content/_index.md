@@ -22,11 +22,10 @@ Hoi! We are group10. This website is provided by Layne, Michelle and Yifan.
 
 {{< feature-grid >}}
   {{< feature-card
-    title="Fast and Full-featured"
-    subtitle="Simple and easy to use, yet powerful and feature-rich."
+    title="Assignment1"
+    icon="book-open"
+    subtitle="Water"
     class="aspect-auto md:aspect-[1.1/1] max-md:min-h-[340px]"
-    image="images/hextra-doc.webp"
-    imageClass="top-[40%] left-[24px] w-[180%] sm:w-[110%] dark:opacity-80"
     style="background: radial-gradient(ellipse at 50% 80%,rgba(194,97,254,0.15),hsla(0,0%,100%,0));"
   >}}
   {{< feature-card
