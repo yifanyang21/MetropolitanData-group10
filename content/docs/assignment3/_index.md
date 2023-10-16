@@ -1,6 +1,7 @@
 ---
 title: Assignment 3  –  Housing
-next: /
+next: /assignment4
+prev: /assignment2
 toc: false
 type: about
 ---
