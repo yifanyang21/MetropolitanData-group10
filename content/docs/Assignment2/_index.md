@@ -1,6 +1,5 @@
 ---
 title: Assignment 2  –  Energy 
-next: /
 toc: false
 type: about
 ---
