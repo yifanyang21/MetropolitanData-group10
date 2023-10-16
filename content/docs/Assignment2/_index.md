@@ -71,7 +71,6 @@ https://www.swimmingworldmagazine.com/news/open-water-swimmer-are-not-limited-to
 
 ### Question 6： If only clean energy can be used, how many solar panels or wind turbines are needed? 
 
-![electric-canal-boat-detail](electric-canal-boat-detail.png)
 <img src="electric-canal-boat-detail.png" height="50%" width="50%">
 ![boatway2](boatway2.png)
 
@@ -84,7 +83,7 @@ https://www.usgs.gov/faqs/how-many-homes-can-average-wind-turbine-power
 
 ### Question 7： Would there be any effect on the water quality if there are less/no canal boats using fossil fules? 
 
-![Baseline-environmentalperformance](Baseline-environmentalperformance.png)
+<img src="Baseline-environmentalperformance.png" height="50%" width="50%">
 
 The table above displays the environmental performance indicators values for different types of baselines of vehicles. As the table shows, for a mechanical baseline, the emissions of CO2, NOx, SOx are 0.20, 0.0020 and 0.0012 respectively. For an electric baseline, these values are all 0. Therefore, the water pollution as a result of diesel/ fossil fuel powered vessels would decrease to 0 when electric vessels would be used. However, as mentioned earlier, water quality does not merely depend on the pollution form vessels on the water. Pollution from sewerage as a consequence of heavy rainfall is also a big contributor to water pollution. This should be considered in organization of this event. 
 
