@@ -12,7 +12,7 @@ Hoi! We are group10. This website is provided by Layne, Michelle and Yifan.
 ## Assignment
 
 {{< cards >}}
-  {{< card link="docs/assignment1"  title="Assignment1" icon="book-open" subtitle="Water" method="Resize">}}
+  {{< card link="docs/assignment1"  title="Assignment1" icon="book-open" subtitle="Water" style="background: radial-gradient(ellipse at 50% 80%,rgba(194,97,254,0.15),hsla(0,0%,100%,0));">}}
   {{< card link="docs/assignment2"  title="Assignment2" icon="book-open" subtitle="Energy" >}}
   {{< card link="docs/assignment3"  title="Assignment3" icon="book-open" subtitle="Housing" >}}
   {{< card link="about"  title="Assignment4" icon="book-open" subtitle="Transpotation" >}}
