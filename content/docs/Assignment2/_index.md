@@ -13,7 +13,7 @@ Paris is hosting the Paralympics in 2024. One of the events at the Paralympics i
 
 The Municipality is worried that the canal- and support boats might pollute the air with their diesel engines. Since the Municipality wants to create ideal conditions for the swimmers so they can set records (always nice for PR), it is your task to figure out if their concern is warranted and what should or could be done to improve conditions. Next to that, Amsterdam wants to advertise this event as a Neutral Energy Event©™® (NEE).
 
----
+
 
 ## Our Solutions:
 
