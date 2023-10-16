@@ -25,7 +25,6 @@ Hoi! We are group10. This website is provided by Layne, Michelle and Yifan.
     title="Assignment1"
     icon="book-open"
     subtitle="Water"
-    class="aspect-auto md:aspect-[1.1/1] max-md:min-h-[340px]"
     style="background: radial-gradient(ellipse at 50% 80%,rgba(194,97,254,0.15),hsla(0,0%,100%,0));"
     link="docs/assignment1"
   >}}
