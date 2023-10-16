@@ -21,14 +21,12 @@ Hoi! We are group10. This website is provided by Layne, Michelle and Yifan.
 
 
 {{< feature-grid >}}
-  <a href="docs/assignment1">
-    {{< feature-card
+  {{< feature-card
     title="Assignment1"
     icon="book-open"
     subtitle="Water"
     style="background: radial-gradient(ellipse at 50% 80%,rgba(194,97,254,0.15),hsla(0,0%,100%,0));"
     link="docs/assignment1"
-  </a>
   >}}
   {{< feature-card
     title="Markdown is All You Need"
