@@ -1,0 +1,11 @@
+element_type,osmid,bus,name,public_transport,geometry,ref:IFOPT,bench,bin,shelter
+node,46395197,yes,"Amsterdam, Prins Hendrikkade",stop_position,POINT (4.9065518 52.373463),,,,
+node,331854558,yes,"Amsterdam, Kadijksplein",stop_position,POINT (4.913366 52.3709246),NL:Q:30008028,,,
+node,838046143,yes,"Amsterdam, Wittenburgergracht",stop_position,POINT (4.9207898 52.3691024),,,,
+node,838046147,yes,"Amsterdam, Wittenburgergracht",stop_position,POINT (4.9196296 52.3694986),,,,
+node,1280741311,yes,"Amsterdam, Kadijksplein",stop_position,POINT (4.9134932 52.3708094),NL:Q:30008027,,,
+node,2087644362,yes,"Amsterdam, Kattenburgerplein",stop_position,POINT (4.9163389 52.3706236),NL:Q:30008015,yes,yes,yes
+node,2087644827,yes,"Amsterdam, Kattenburgerplein",stop_position,POINT (4.915926 52.3707527),NL:Q:30008025,,,
+node,4457168573,yes,"Amsterdam, Kattenburgerstraat",stop_position,POINT (4.9184891 52.372718),NL:Q:30008032,,,
+node,4621705796,yes,"Amsterdam, Kattenburgerstraat",stop_position,POINT (4.9179263 52.372271),NL:Q:30008041,,,
+node,4629696011,yes,"Amsterdam, IJ tunnel",stop_position,POINT (4.9094406 52.3722719),,,,
