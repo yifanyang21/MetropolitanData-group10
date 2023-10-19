@@ -104,10 +104,10 @@ print(swim_route_path)
 # visualization
 swim_route_fig, ax = ox.plot_graph_route(graph_water, swim_route_path, route_linewidth=2, route_color='red', show=True, orig_dest_size=2, bgcolor='white', node_color="lightgrey", edge_color="lightgrey",  close=False)
 ```
-<table><tr>
-<td><img src="plt_swim_route.png" >
-<td><img src="swim_route_big.png" height="50%" width="50%">
-</tr></table>
+
+<img src="plt_swim_route.png" >
+<img src="swim_route_big.png">
+
 
 ### Question 1:  Find the centre of the nodes of the swimming route. Use the centre to find a suitable spot for the Event Headquarters. 
 
@@ -136,12 +136,12 @@ plt.show()
 ```
 <table><tr>
 <td><img src="plt_centroid_of_swim_route.png">
-<td><img src="centroid_of_swim_route.png" height="50%" width="50%">
+<td><img src="centroid_of_swim_route.png">
 </tr></table>
 
 The centroid is located along Plantage Parklaan near the Hotel Hortus. Good rooms and locations in this area for even headquarters could be the meeting room at De Hortus (Meetings - De Hortus), a tent in the Wertheimpark, or Amsterdam Hotel Parklane. Bigger rooms that are a bit further away include the Artis, University Van Amsterdam, and the National Opera and Ballet House, which would all have large conference rooms available for headquarters.  
 
-<img src="headquarters.png" height="50%" width="50%">
+<img src="headquarters.png" >
 
 ### Question 2:  Find the closest bus and tram stops at the start and finish of the swimming route. How many people can be transported within an hour.  
 
@@ -186,10 +186,10 @@ https://reisinfo.gvb.nl/en/plattegronden
 
 ### Question 3:  Can you find which bus and tram lines these are, and can you find their routes?  
 
-<img src="Tram_metro_stops_and_lines.png" height="50%" width="50%">
+<img src="Tram_metro_stops_and_lines.png">
 The bus line data is not available; therefore, we were not able to locate the routes of these buses. For trams and metros, the line data was available, therefore we were able to display the routes. However, the names of the stops and lines were not included in the data, therefore the labels for each tram and metro stop and line are missing in this map.  
 But we can still find the lines and their routes according to this map:
-<img src="public_transportation_routes.png" height="50%" width="50%">
+<img src="public_transportation_routes.png" >
 
 References:  
 https://maps.amsterdam.nl/open_geodata/ 
@@ -223,7 +223,7 @@ ax.scatter(4.9135805, 52.3709291, c='red',marker = "+", s=200)
 ax.scatter(4.9085689, 52.3663277, c='red',marker = "+", s=200) 
 plt.show()
 ```
-<img src="nearest_point_road.png" height="50%" width="50%">
+<img src="nearest_point_road.png">
 
 
 ```python
@@ -559,10 +559,10 @@ for row_index, row in restaurant.iterrows():
     AMS.add_child(mark)
 AMS
 ```
-<img src="plt_restaurants.png" height="50%" width="50%">
+<img src="plt_restaurants.png">
 
 Specificly, there are restaurants within 10min's walk:
-<img src="Restaurants_cafes_within_10_minute_walkin.png" height="50%" width="50%">
+<img src="Restaurants_cafes_within_10_minute_walkin.png">
 
 References:  
 https://data.amsterdam.nl/datasets/y5I1tIFyd9e8aA/eten-en-drinken/ 
