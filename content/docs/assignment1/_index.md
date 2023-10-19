@@ -18,10 +18,10 @@ Paris is hosting the Paralympics in 2024. One of the events at the Paralympics i
 To convey a proper opinion on the feasibility of the event, our group would need data about the quality of the water in the canals and the most populous routes for water transport and canal boats. The water quality data would need to include escherichia coli (EC) and intestinal entercoocci (IE) levels because this would tell us the sewage level at the location. The water transport and canal boat data would tell us where the busiest routes are, so therefore where to most likely avoid. However, the water quality of the canals will be a priority to impacting routes. Oxygen, temperature, and turbidity are also good indicators of water quality, so data sets with this information would be helpful in conveying the feasibility.  
 
  
-
 The following table is a list of relevant data sets we found and the format they are stored in. In the table we answer the questions about file format, data type, the readability and the required python library.  
 
-<table font-size="11px">
+<div style="height: 500px; overflow: auto; font-size: 10px vertical-align: middle">
+<table font-size="10px">
 <thead>
 <tr>
 <th style="text-align:left">Name</th>
@@ -88,9 +88,18 @@ The following table is a list of relevant data sets we found and the format they
 <td style="text-align:left">(maybe we can use “requests” library to make HTTP requests and retrieve raw data)</td>
 <td style="text-align:left">Yes</td>
 </tr>
+<tr>
+<td style="text-align:left">Waternet Sewer Nodes(waternet rioolknopen)</td>
+<td style="text-align:left" width="200">https://api.data.amsterdam.nl/v1/leidingeninfrastructuur/waternet_rioolknopen</td>
+<td style="text-align:left">json/csv</td>
+<td style="text-align:left">Geodata (points with symbolic labels)</td>
+<td style="text-align:left">Municipal scale (Municipality of Amsterdam)</td>
+<td style="text-align:left">json,request</td>
+<td style="text-align:left">Yes</td>
+</tr>
 </tbody>
 </table>
-
+</div>
 
 ## Read and print by Python
 
@@ -120,6 +129,32 @@ df = pd.read_excel('Meetresultaten kwaliteitsonderzoek oppervlaktewater.xlsx')
 
 print(df)
 ```
+
+The following program is to read and print the data from <i>Waternet_rioolknopen</i>
+
+```python
+#import library
+import folium
+import json
+
+#open the json file, which we have downloaded from the link https://api.data.amsterdam.nl/v1/leidingeninfrastructuur/waternet_rioolknopen/?typeKnoop=(externe)+Overstortput 
+with open('leidingeninfrastructuur-waternetRioolknopen-2023-10-19T22_38_19.206734.json', 'r') as file:
+    data = json.load(file)
+
+#create a map
+AMS = folium.Map(location=(52.3737966,4.9148386), width='80%', height='80%', zoom_start=14, control_scale=True)
+
+#add point in to the map 
+for feature in data['features']:
+    # get the geometry information
+    coordinates = feature['geometry']['coordinates']
+    lon, lat = coordinates[0], coordinates[1]
+    folium.Marker([lat, lon]).add_to(AMS)
+
+AMS
+```
+<img src="point.png">
+
 
 ## Limitation
 A first limitation would be that we were unable to find more extensive and precise water quality testing data for the Amsterdam canals. In addition, no exact data on sewerage outflow points were collected. Therefore, we could only extrapolate and speculate based on data from a few monitoring points. Having such data would enable us to make more targeted recommendations. 
