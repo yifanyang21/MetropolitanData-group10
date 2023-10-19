@@ -30,7 +30,7 @@ According to the routes of Amsterdam City Swim, the water way between Keizersgra
 
 Therefore, we have planned the following route in this area. The starting and end points are both near the MEA and Scheepvaartmuseum. The length is around 5km.
 
-<img src="googleroute.jpg" height="50%" width="50%">
+<img src="googleroute.jpg" height="70%" width="70%">
 
 
 ```python
@@ -173,13 +173,13 @@ AMS
 ```
 
 
-<img src="plt_Tram_metro_bus_stops_near_start_ finish_line.png">
+<img src="plt_Tram_metro_bus_stops_near_start_ finish_line.png" height="70%" width="70%">
 <img src="Tram_metro_bus_stops_near_start_ finish_line.png" height="70%" width="70%">
 
 
 People transported within the hour cannot be calculated with the data available because participants will be required to walk at least 1km to the nearest bus/tram stop, so everyone will already technically be “outside the area” by the time they reach a second mode of transportation (bus, tram, train, taxi, etc). See limitations for more information.  
 
-References: 
+References:  
 https://maps.amsterdam.nl/open_geodata/  
 https://reisinfo.gvb.nl/en/plattegronden
 
@@ -561,7 +561,7 @@ AMS
 <img src="plt_restaurants.png">
 
 Specificly, there are restaurants within 10min's walk:
-<img src="Restaurants_cafes_within_10_minute_walkin.png">
+<img src="Restaurants_cafes_within_10_minute_walkin.png" height="70%" width="70%">
 
 References:  
 https://data.amsterdam.nl/datasets/y5I1tIFyd9e8aA/eten-en-drinken/ 
