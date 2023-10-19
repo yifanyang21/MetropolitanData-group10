@@ -282,7 +282,7 @@ restaurant = ox.features_from_point((start_point['y'], start_point['x']), tags={
 restaurant = restaurant.loc['node']
 restaurant.to_csv("restaurant.csv") 
 ```
-<div>
+<div style="width: 500px; height: 200px; overflow: auto;">
 <style scoped>
     .dataframe tbody tr th:only-of-type {
         vertical-align: middle;
