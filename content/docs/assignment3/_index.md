@@ -108,11 +108,29 @@ bnb_new.head()
 street_top5 = bnb_new['street'].value_counts().sort_values(ascending=False).head(5)
 street_top5
 ```
-| Nassaukade  | 194 |
-| Derde Egelantiersdwarsstraat  | 80 |
-| Hoofdweg  | 70 |
-| Prinsengracht  | 60 |
-| Admiraal De Ruijterweg  | 54 |
+
+<table>
+    <tr>
+        <td>Nassaukade</td>
+        <td>194</td>
+    </tr>
+    <tr>
+        <td>Derde Egelantiersdwarsstraat</td>
+        <td>80</td>
+    </tr>
+    <tr>
+        <td>Hoofdweg</td>
+        <td>80</td>
+    </tr>
+    <tr>
+        <td>Prinsengracht</td>
+        <td>60</td>
+    </tr>
+    <tr>
+        <td>Admiraal De Ruijterweg</td>
+        <td>54</td>
+    </tr>    
+</table>
 
 According to the result above, we can say that the <b>Nassaukade</b> has most AirBnB
 
