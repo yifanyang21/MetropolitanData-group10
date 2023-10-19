@@ -106,7 +106,7 @@ swim_route_fig, ax = ox.plot_graph_route(graph_water, swim_route_path, route_lin
 ```
 
 <img src="plt_swim_route.png" >
-<img src="swim_route_big.png">
+<img src="swim_route_big.png" height="70%" width="70%">
 
 
 ### Question 1:  Find the centre of the nodes of the swimming route. Use the centre to find a suitable spot for the Event Headquarters. 
@@ -136,11 +136,11 @@ plt.show()
 ```
 
 <img src="plt_centroid_of_swim_route.png">
-<img src="centroid_of_swim_route.png">
+<img src="centroid_of_swim_route.png" height="70%" width="70%">
 
 The centroid is located along Plantage Parklaan near the Hotel Hortus. Good rooms and locations in this area for even headquarters could be the meeting room at De Hortus (Meetings - De Hortus), a tent in the Wertheimpark, or Amsterdam Hotel Parklane. Bigger rooms that are a bit further away include the Artis, University Van Amsterdam, and the National Opera and Ballet House, which would all have large conference rooms available for headquarters.  
 
-<img src="headquarters.png" >
+<img src="headquarters.png" height="70%" width="70%" >
 
 ### Question 2:  Find the closest bus and tram stops at the start and finish of the swimming route. How many people can be transported within an hour.  
 
@@ -174,7 +174,7 @@ AMS
 
 
 <img src="plt_Tram_metro_bus_stops_near_start_ finish_line.png">
-<img src="Tram_metro_bus_stops_near_start_ finish_line.png">
+<img src="Tram_metro_bus_stops_near_start_ finish_line.png" height="70%" width="70%">
 
 
 People transported within the hour cannot be calculated with the data available because participants will be required to walk at least 1km to the nearest bus/tram stop, so everyone will already technically be “outside the area” by the time they reach a second mode of transportation (bus, tram, train, taxi, etc). See limitations for more information.  
@@ -185,7 +185,7 @@ https://reisinfo.gvb.nl/en/plattegronden
 
 ### Question 3:  Can you find which bus and tram lines these are, and can you find their routes?  
 
-<img src="Tram_metro_stops_and_lines.png">
+<img src="Tram_metro_stops_and_lines.png" height="70%" width="70%">
 The bus line data is not available; therefore, we were not able to locate the routes of these buses. For trams and metros, the line data was available, therefore we were able to display the routes. However, the names of the stops and lines were not included in the data, therefore the labels for each tram and metro stop and line are missing in this map.  
 But we can still find the lines and their routes according to this map:
 <img src="public_transportation_routes.png" >
@@ -282,7 +282,7 @@ restaurant = ox.features_from_point((start_point['y'], start_point['x']), tags={
 restaurant = restaurant.loc['node']
 restaurant.to_csv("restaurant.csv") 
 ```
-<div style="height: 500px; overflow: auto; font-size: 20px">
+<div style="height: 500px; overflow: auto; font-size: 10px">
 <style scoped>
     .dataframe tbody tr th:only-of-type {
         vertical-align: middle;
@@ -305,7 +305,7 @@ restaurant.to_csv("restaurant.csv")
       <th>geometry</th>
     </tr>
   </thead>
-  <tbody>
+  <tbody style="font-size:10px">
     <tr>
       <th>252111330</th>
       <td>pub</td>
