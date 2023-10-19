@@ -185,3 +185,7 @@ for i in bnb_df['license']:
 
 print(len(license))
 ```
+
+### Limitation:
+
+The tourist tax calculation is limited to hotel and Airbnb users because data on the tourists staying at bed and breakfasts or with a friend is an unknown. Question four is limited by the BBGA data not providing information on type of house ownership to cross reference, therefore we could not answer it sufficiently.  
