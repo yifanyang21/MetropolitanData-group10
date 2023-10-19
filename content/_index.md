@@ -23,6 +23,7 @@ Hoi! This website is provided by Layne, Michelle and Yifan.
   {{< card link="docs/assignment1" image="city-swim-start.jpg" title="Assignment1" icon="book-open" subtitle="Water" >}}
   {{< card link="docs/assignment2" image="boat.jpg" title="Assignment2" icon="book-open" subtitle="Energy" >}}
   {{< card link="docs/assignment3" image="airbnb.jpg" title="Assignment3" icon="book-open" subtitle="Housing" >}}
-  {{< card link="docs/assignment4"  title="Assignment4" icon="book-open" subtitle="Transpotation" >}}
-  {{< card link="about"  title="Assignment?" icon="book-open" subtitle="Coming soon,maybe." >}}
+  {{< card link="docs/assignment4"  image="Banner_ACS1.jpg" title="Assignment4" icon="book-open" subtitle="Transpotation" >}}
+  {{< card image="Banner_ACS2.jpg" title="Assignment??" icon="book-open" subtitle="Not now" >}}
+  {{< card image="Banner_ACS3.jpg" title="Assignment???" icon="book-open" subtitle="Not now" >}}
 {{< /cards >}}
