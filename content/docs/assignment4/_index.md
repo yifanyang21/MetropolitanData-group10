@@ -134,10 +134,9 @@ swim_route_fig, ax = ox.plot_graph_route(graph_water, swim_route_path, route_lin
 ax.scatter(ave_x, ave_y, c='red',marker = "+", s=200) 
 plt.show()
 ```
-<table><tr>
-<td><img src="plt_centroid_of_swim_route.png">
-<td><img src="centroid_of_swim_route.png">
-</tr></table>
+
+<img src="plt_centroid_of_swim_route.png">
+<img src="centroid_of_swim_route.png">
 
 The centroid is located along Plantage Parklaan near the Hotel Hortus. Good rooms and locations in this area for even headquarters could be the meeting room at De Hortus (Meetings - De Hortus), a tent in the Wertheimpark, or Amsterdam Hotel Parklane. Bigger rooms that are a bit further away include the Artis, University Van Amsterdam, and the National Opera and Ballet House, which would all have large conference rooms available for headquarters.  
 
