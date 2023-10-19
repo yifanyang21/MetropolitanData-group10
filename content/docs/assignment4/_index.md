@@ -188,7 +188,7 @@ https://reisinfo.gvb.nl/en/plattegronden
 <img src="Tram_metro_stops_and_lines.png" height="70%" width="70%">
 The bus line data is not available; therefore, we were not able to locate the routes of these buses. For trams and metros, the line data was available, therefore we were able to display the routes. However, the names of the stops and lines were not included in the data, therefore the labels for each tram and metro stop and line are missing in this map.  
 But we can still find the lines and their routes according to this map:
-<img src="public_transportation_routes.png" >
+<img src="public_transportation_routes.png" height="70%" width="70%" >
 
 References:  
 https://maps.amsterdam.nl/open_geodata/ 
@@ -282,7 +282,7 @@ restaurant = ox.features_from_point((start_point['y'], start_point['x']), tags={
 restaurant = restaurant.loc['node']
 restaurant.to_csv("restaurant.csv") 
 ```
-<div style="height: 500px; overflow: auto; font-size: 10px">
+<div style="height: 500px; overflow: auto; font-size: 10px vertical-align: middle">
 <style scoped>
     .dataframe tbody tr th:only-of-type {
         vertical-align: middle;
@@ -558,7 +558,7 @@ for row_index, row in restaurant.iterrows():
     AMS.add_child(mark)
 AMS
 ```
-<img src="plt_restaurants.png">
+<img src="plt_restaurants.png" height="70%" width="70%">
 
 Specificly, there are restaurants within 10min's walk:
 <img src="Restaurants_cafes_within_10_minute_walkin.png" height="70%" width="70%">
