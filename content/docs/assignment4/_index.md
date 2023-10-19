@@ -2,7 +2,7 @@
 title: Assignment 4  –  Transportation
 next: /
 prev: /assignment3
-toc: false
+toc: true
 type: about
 ---
 
@@ -105,7 +105,7 @@ print(swim_route_path)
 swim_route_fig, ax = ox.plot_graph_route(graph_water, swim_route_path, route_linewidth=2, route_color='red', show=True, orig_dest_size=2, bgcolor='white', node_color="lightgrey", edge_color="lightgrey",  close=False)
 ```
 <table><tr>
-<td><img src="plt_swim_route.png" height="50%" width="50%">
+<td><img src="plt_swim_route.png" >
 <td><img src="swim_route_big.png" height="50%" width="50%">
 </tr></table>
 
@@ -135,7 +135,7 @@ ax.scatter(ave_x, ave_y, c='red',marker = "+", s=200)
 plt.show()
 ```
 <table><tr>
-<td><img src="plt_centroid_of_swim_route.png" height="50%" width="50%">
+<td><img src="plt_centroid_of_swim_route.png">
 <td><img src="centroid_of_swim_route.png" height="50%" width="50%">
 </tr></table>
 
@@ -173,10 +173,10 @@ for row_index, row in bus_stop.iterrows():
 AMS
 ```
 
-<table><tr>
-<td><img src="plt_Tram_metro_bus_stops_near_start_ finish_line.png" height="50%" width="50%">
-<td><img src="Tram_metro_bus_stops_near_start_ finish_line.png" height="50%" width="50%">
-</tr></table>
+
+<img src="plt_Tram_metro_bus_stops_near_start_ finish_line.png">
+<img src="Tram_metro_bus_stops_near_start_ finish_line.png">
+
 
 People transported within the hour cannot be calculated with the data available because participants will be required to walk at least 1km to the nearest bus/tram stop, so everyone will already technically be “outside the area” by the time they reach a second mode of transportation (bus, tram, train, taxi, etc). See limitations for more information.  
 
@@ -191,8 +191,7 @@ The bus line data is not available; therefore, we were not able to locate the ro
 But we can still find the lines and their routes according to this map:
 <img src="public_transportation_routes.png" height="50%" width="50%">
 
-References: 
-
+References:  
 https://maps.amsterdam.nl/open_geodata/ 
 https://reisinfo.gvb.nl/en/lijnen?bus&show
 
@@ -301,16 +300,10 @@ restaurant.to_csv("restaurant.csv")
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
-      <th></th>
+      <th>osmid</th>
       <th>amenity</th>
       <th>name</th>
       <th>geometry</th>
-    </tr>
-    <tr>
-      <th>osmid</th>
-      <th></th>
-      <th></th>
-      <th></th>
     </tr>
   </thead>
   <tbody>
@@ -571,7 +564,7 @@ AMS
 Specificly, there are restaurants within 10min's walk:
 <img src="Restaurants_cafes_within_10_minute_walkin.png" height="50%" width="50%">
 
-References: 
+References:  
 https://data.amsterdam.nl/datasets/y5I1tIFyd9e8aA/eten-en-drinken/ 
 
 ### Limitations: 
