@@ -20,8 +20,8 @@ To convey a proper opinion on the feasibility of the event, our group would need
  
 The following table is a list of relevant data sets we found and the format they are stored in. In the table we answer the questions about file format, data type, the readability and the required python library.  
 
-<div style="height: 500px; overflow: auto; font-size: 10px vertical-align: middle">
-<table font-size="10px">
+<div style="overflow: auto; font-size: 10px vertical-align: middle">
+<table font-size=10px>
 <thead>
 <tr>
 <th style="text-align:left">Name</th>
