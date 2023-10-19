@@ -91,10 +91,6 @@ The following table is a list of relevant data sets we found and the format they
 </tbody>
 </table>
 
-However, we were unable to find more extensive and precise water quality testing data for the Amsterdam canals, and could only extrapolate and speculate based on data from a few monitoring points. Having such data would enable us to make more targeted recommendations.
-
-
-
 
 ## Read and print by Python
 
@@ -124,3 +120,8 @@ df = pd.read_excel('Meetresultaten kwaliteitsonderzoek oppervlaktewater.xlsx')
 
 print(df)
 ```
+
+## Limitation
+A first limitation would be that we were unable to find more extensive and precise water quality testing data for the Amsterdam canals. In addition, no exact data on sewerage outflow points were collected. Therefore, we could only extrapolate and speculate based on data from a few monitoring points. Having such data would enable us to make more targeted recommendations. 
+
+Furthermore, there are lots of factors at play when making recommendations for the feasibility of an event like this in terms safety of the partaking athletes from an environmental perspective. The table we present in this assignment naturally only presents a share of the factors that determines safety of the athletes. The inclusion of other various datasets, not only in terms of water quality, but also in terms of numbers and peak times of vessels in the canals, for instance, would allow us to make more targeted recommendations.  
