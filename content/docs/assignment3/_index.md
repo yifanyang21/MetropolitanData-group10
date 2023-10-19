@@ -157,9 +157,49 @@ street_apt_top5
 
 ### Question 4： Try to cross reference the data from the AirBnB dataset with the BBGA. Can you figure out if all apartments of AirBnB are designated as housing? Which number of apartments are not rented out all the time but are also used as normal housing?
 
-SSSorry, I do not understand this question yet....
+(SSSorry, I do not understand this question yet....)
 
+Comparing data between BBGA and Airbnb listings, we found that, using 'neighbourhood' as a reference point, the number of Airbnb rooms/apartments registered in BBGA in 2018 (data for later years is not available) is significantly higher than the latter. However, there is no other data available to determine how many of these were designated as housing.
 
+```python
+#get the relevant data from BBGA
+bbga_df = pd.read_excel(r'2023_BBGA_0614_cf8d825e89.xlsx')
+bbga_data = bbga_df.loc[3937:3963,['gebiednaam','BHVESTAIRBNB']]
+
+#make the name of neighborhood same as those in airbnblisting.csv
+bbga_new = bbga_data.replace({
+            "Oud West, De Baarsjes" :"De Baarsjes - Oud-West", "De Pijp, Rivierenbuurt":"De Pijp - Rivierenbuurt",
+            "Indische Buurt, Oostelijk Havengebied" : "Oostelijk Havengebied - Indische Buurt", "IJburg, Zeeburgereiland" : "IJburg - Zeeburgereiland",
+            "Geuzenveld, Slotermeer" : "Geuzenveld - Slotermeer", "Buitenveldert, Zuidas" : "Buitenveldert - Zuidas",
+            "Oud-Zuid" : "Zuid", "De Aker, Sloten, Nieuw-Sloten" : "De Aker - Nieuw Sloten", "Gaasperdam" : "Gaasperdam - Driemond" 
+            })
+
+#plot the amount of apartments in two dataset
+fig = px.bar(bnb_df.neighbourhood.value_counts(), y='count',height=600)
+fig.add_bar(x=bbga_new['gebiednaam'], y=bbga_new['BHVESTAIRBNB'],name="BBGA")
+fig.update_layout(barmode='group' )
+fig.show()
+```
+<img src="bbga.png">
+
+We further examined the rental duration of these listings over the course of a year. It can be observed that the majority of properties are rented out for only a very small portion of the year. We speculate that these properties are used as residences the rest of the time. 
+
+```python
+#get the distribution of rental durations for the listings.
+bnb_df.hist(column='availability_365', bins=20, color='grey')
+plt.xlabel('number of days')
+plt.ylabel('count')
+plt.plot(color="red")
+
+#get the amount of the listings which are rented all around the year and are not rented.
+count_365 = len(bnb_df[bnb_df['availability_365'] == 365])
+count_0 = len(bnb_df[bnb_df['availability_365'] == 0])
+print(count_365)
+print(count_0)
+```
+<img src="output.png">
+
+Specifically, out of the total, 2,948 listings remain unrented throughout the year, while only 36 listings are rented out for the entire year.
 
 ### Question 5： How many hotel rooms should be built if Amsterdam wants to accommodate the same number of tourists?
 
